@@ -329,3 +329,4 @@ workflows:
               only:
                 - main
                 - "0.16"
+                - "0.16.7-cherry"

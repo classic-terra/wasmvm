@@ -184,7 +184,7 @@ checksum = "9d6f2aa4d0537bcc1c74df8755072bd31c1ef1a3a1b85a68e8404a8c353b7b8b"
 [[package]]
 name = "cosmwasm-crypto"
 version = "0.16.8"
-source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta1#49b2486c31fb6299b71f026c81a91cd792e32002"
+source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta3#ffbda158e26cb7d6f03a30c5073324ff5a64797a"
 dependencies = [
  "digest",
  "ed25519-zebra",
@@ -196,7 +196,7 @@ dependencies = [
 [[package]]
 name = "cosmwasm-derive"
 version = "0.16.8"
-source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta1#49b2486c31fb6299b71f026c81a91cd792e32002"
+source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta3#ffbda158e26cb7d6f03a30c5073324ff5a64797a"
 dependencies = [
  "syn",
 ]
@@ -204,7 +204,7 @@ dependencies = [
 [[package]]
 name = "cosmwasm-std"
 version = "0.16.8"
-source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta1#49b2486c31fb6299b71f026c81a91cd792e32002"
+source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta3#ffbda158e26cb7d6f03a30c5073324ff5a64797a"
 dependencies = [
  "base64",
  "cosmwasm-crypto",
@@ -220,7 +220,7 @@ dependencies = [
 [[package]]
 name = "cosmwasm-vm"
 version = "0.16.8"
-source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta1#49b2486c31fb6299b71f026c81a91cd792e32002"
+source = "git+https://github.com/classic-terra/cosmwasm?rev=v0.16.8-beta3#ffbda158e26cb7d6f03a30c5073324ff5a64797a"
 dependencies = [
  "clru",
  "cosmwasm-crypto",

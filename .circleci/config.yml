@@ -345,3 +345,4 @@ workflows:
             branches:
               only:
                 - main
+                - v1.1.1-terra

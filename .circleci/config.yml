@@ -67,7 +67,7 @@ jobs:
   libwasmvm_audit:
     docker:
       # Note: the audit tool can use a more modern Rust version than the build jobs (which should be in sync with the builders)
-      - image: cimg/rust:1.63.0
+      - image: cimg/rust:1.64.0
     steps:
       - checkout
       - run:
@@ -80,7 +80,7 @@ jobs:
           command: rustc --version; cargo --version; rustup --version
       - restore_cache:
           keys:
-            - cargocache-v3-libwasmvm_audit-rust:1.63.0-{{ checksum "libwasmvm/Cargo.lock" }}
+            - cargocache-v3-libwasmvm_audit-rust:1.64.0-{{ checksum "libwasmvm/Cargo.lock" }}
       - run:
           name: Install cargo-audit
           command: cargo install --debug cargo-audit --version 0.17.0
@@ -91,7 +91,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.cargo/registry
-          key: cargocache-v3-libwasmvm_audit-rust:1.63.0-{{ checksum "libwasmvm/Cargo.lock" }}
+          key: cargocache-v3-libwasmvm_audit-rust:1.64.0-{{ checksum "libwasmvm/Cargo.lock" }}
 
   format-go:
     docker:
